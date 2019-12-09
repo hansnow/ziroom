@@ -1,0 +1,22 @@
+{
+  "name": "ziroom",
+  "version": "0.1.0",
+  "description": "ziroom.com api for node",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "tsc"
+  },
+  "keywords": [
+    "ziroom"
+  ],
+  "author": "Hansnow <hansnow2012@gmail.com> (https://github.com/hansnow/)",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "got": "^10.0.0-beta.2"
+  }
+}
